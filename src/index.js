@@ -25,7 +25,7 @@ client.on("ready", (c) => {
 
     if (day === 22) {
       channel
-        .send("@everyone Podsetnik za spotify subsripciju!")
+        .send("@everyone Podsetnik za spotify premium pretplatu")
         .then(() => console.log("Message sent successfully"))
         .catch((error) => console.error("Failed to send message:", error));
     }
